@@ -102,8 +102,11 @@ body {
 }
 
 p {
-    font-size: 12px;
+    font-size: 11px;
     margin-top: 50px;
+    font-family: 'Open Sans', sans-serif;
+    color: #b2b2b2;
+    line-height: 1.8em;
 }
 
 a {
@@ -138,9 +141,6 @@ h2 {
 .wrapper {
     margin-top: 100px;
 }
-@media only screen and (max-width: 768px) {
-    .wrapper { margin-top:  35px; }
-}
 
 .simpsonised {
     position: absolute;
@@ -151,6 +151,26 @@ h2 {
 
 .simpsonised a {
 }
+
+.out-of-office {
+    width: 325px;
+    margin: 0 auto;
+}
+
+.out-of-office a {
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    border-bottom: 1px solid transparent;
+    display: inline-block;
+    color: #0f7e8e;
+}
+
+.out-of-office a:hover {
+    border-bottom: 1px solid #0f7e8e;
+}
+
 
 .simpsonised a img {
     -webkit-transition: all .25s ease;
@@ -164,6 +184,25 @@ h2 {
 .simpsonised a:hover img {
     opacity: 0.7;
     transform: scale(1.1);
+}
+
+@media only screen and (max-width: 768px) {
+    .wrapper {
+        margin-top: 15px;
+        padding: 0 10px;
+    }
+    .logo img { max-width: 100%; }
+    .logo h2 {
+        padding: 0;
+        margin: 0;
+        margin-top: 30px;
+        line-height: 1em;
+    }
+    .out-of-office {
+        width: 100%;
+        max-width: 100%;
+        margin: 30px auto 0;
+    }
 }
 
 
