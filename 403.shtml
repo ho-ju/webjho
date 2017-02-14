@@ -12,7 +12,7 @@
         <link rel="shortcut icon" href="favicon.ico">
 
         <link rel="stylesheet" href="css/normalize.min.css">
-        <link href='https://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
+        <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Open+Sans" rel="stylesheet">
         <link rel="stylesheet" href="css/main.min.css">
     </head>
     <body>
@@ -25,12 +25,24 @@
           <a href="mailto:&#106;&#104;&#111;&#064;&#119;&#101;&#098;&#106;&#104;&#111;&#046;&#099;&#111;&#109;" class="logo">
             <img src="img/logo.png" alt="Web JHo" />
             <h1>Web J.Ho</h1>
-            <p>Ooop, forbidden.<p>
+            <h2>Web Devloper. Melbourne.</h2>
           </a>
+          <p class="out-of-office">Oops, forbidden! Please<a href="mailto:&#106;&#104;&#111;&#064;&#119;&#101;&#098;&#106;&#104;&#111;&#046;&#099;&#111;&#109;">contact</a> me.</p>
           <div class="simpsonised"><a href="mailto:&#106;&#104;&#111;&#064;&#119;&#101;&#098;&#106;&#104;&#111;&#046;&#099;&#111;&#109;"><img src="img/jho-sm.png" alt="Web JHo" /></a></div>
         </div>
 
         
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="js/jquery-stars.min.js"></script>
+        <script>
+          $(function() {
+            $('html').jstars({
+              image_path: 'img',
+              style: 'white',
+              frequency: 5
+            });
+          });
+        </script>
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
